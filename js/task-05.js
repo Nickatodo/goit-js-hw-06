@@ -1,6 +1,6 @@
 let inputName = document.querySelector("#name-input");
 let outputName = document.querySelector("#name-output");
 
-inputName.addEventListener("change", (e) => {
-    outputName.textContent = e.target.value;
+inputName.addEventListener("keyup", (e) => {
+    outputName.textContent = e.currentTarget.value;
 });
