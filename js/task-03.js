@@ -19,17 +19,3 @@ let imagenes = images.map((objImg) => {
 }).join(" ");
 
 galeria.insertAdjacentHTML("beforeend", imagenes);
-
-/*
-function crearGallery() { 
-  const gallery = document.querySelector(".gallery");
-  const imagenes = images.map(image => `
-  <li>
-    <img src="${image.url}" alt="${image.alt}">
-  </li>`
-  ).join('');
-
-  gallery.insertAdjacentHTML('beforeend', imagenes);
-}
-
-crearGallery();*/
